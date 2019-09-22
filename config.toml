@@ -1,7 +1,7 @@
 baseURL = "https://yellowsea.top/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Yellowsea Blog"
+title = "Yellowsea's Blog"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -59,7 +59,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Yellowsea"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = ""        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Yellowsea", "blog"]
   description = "If it doesn't challenge you, it doesn't change you!"
 
@@ -76,7 +76,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   moreMeta = false
 
   # Syntax highlighting by highlight.js
-  highlightInClient = true
+  highlightInClient = false
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.

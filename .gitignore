@@ -16,3 +16,6 @@ hugo.linux
 *.iml
 out
 gen
+
+# Visual Studio Code
+.vscode
